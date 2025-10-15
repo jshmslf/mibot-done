@@ -1,3 +1,7 @@
+import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
+
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from assistant import ChatBotAssistant

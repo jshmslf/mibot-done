@@ -3,6 +3,8 @@ services:
     runtime: python
     name: grimore-chatbot
     plan: free
-    buildCommand: pip install -r requirements.txt
+    buildCommand: |
+      pip install -r requirements.txt
+      python nltk_download.py
     startCommand: uvicorn api:app --host 0.0.0.0 --port $PORT
     autoDeploy: true
