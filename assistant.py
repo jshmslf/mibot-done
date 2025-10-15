@@ -11,6 +11,9 @@ from model import ChatBotModel
 import nltk
 from nltk.stem import WordNetLemmatizer
 
+nltk.data.path.append("/opt/render/nltk_data")
+
+
 class ChatBotAssistant:
     def __init__(self,  intents_path, function_mappings=None):
         self.model = None
