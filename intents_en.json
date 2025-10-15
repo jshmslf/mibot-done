@@ -1,0 +1,170 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good day",
+        "good morning",
+        "good evening",
+        "what's up"
+      ],
+      "responses": [
+        "Hello there! I'm Joshua's AI assistant. How can I help you today?",
+        "Hi! I'm Joshua Verceles' chatbot! Nice to meet you!",
+        "Hey! I'm the AI version of Joshua. What do you want to know about me?"
+      ]
+    },
+    {
+      "tag": "about_joshua",
+      "patterns": [
+        "who are you",
+        "tell me about yourself",
+        "who is joshua",
+        "tell me about joshua",
+        "what do you do",
+        "introduce yourself"
+      ],
+      "responses": [
+        "Joshua F. Verceles, a detail-oriented and motivated Computer Science graduate from Pangasinan State University. He's passionate about web development, AI, and building efficient digital solutions."
+      ]
+    },
+        {
+      "tag": "location_joshua",
+      "patterns": [
+        "where do you live?",
+        "where are currently right now?"
+      ],
+      "responses": [
+        "Joshua is currently based at Pangasinan",
+        "He's living right now at Bayambang, Pangasinan"
+      ]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "where did you study",
+        "what is your education",
+        "what course did you take",
+        "tell me about your school",
+        "what university did you go to"
+      ],
+      "responses": [
+        "He graduated with a Bachelor of Science in Computer Science from Pangasinan State University - Lingayen Campus, with Academic Distinction (GWA 1.52).",
+        "He earned my BS in Computer Science from Pangasinan State University. I also studied STEM at Our Lady of Fatima University, where he graduated with High Honors."
+      ]
+    },
+    {
+      "tag": "skills",
+      "patterns": [
+        "what are your skills",
+        "what programming languages do you know",
+        "what tools do you use",
+        "what technologies are you familiar with",
+        "what can you do"
+      ],
+      "responses": [
+        "He's in Python, Java, C++, and TypeScript. He work with frameworks like Next.js, Bootstrap, and Flutter. Also use Git, GitHub, VS Code, Photoshop, Illustrator, and Figma.",
+        "His technical skills include programming in Python, Java, and TypeScript; web development using Next.js and Bootstrap; and design tools like Figma and Photoshop."
+      ]
+    },
+    {
+      "tag": "projects",
+      "patterns": [
+        "what projects have you done",
+        "tell me about your projects",
+        "what's your thesis",
+        "do you have any research",
+        "describe your projects"
+      ],
+      "responses": [
+        "His thesis project is called 'Advancing Penmanship Recognition Through Computer Vision Technology'. It uses machine learning to recognize handwritten medical prescriptions and convert them into digital text using OCR and NLP.",
+        "He developed a system for the Provincial Engineering Office of Pangasinan during his internship with his co-interns, Liv Clarence Torres, Phillip John Viray, Carlo Palaspas and Vic Sagario. It streamlined local administrative processes, implemented geo-tagging, and reduced paper-based operations."
+      ]
+    },
+    {
+      "tag": "experience",
+      "patterns": [
+        "do you have work experience",
+        "tell me about your internship",
+        "where did you work",
+        "what was your OJT",
+        "what experience do you have"
+      ],
+      "responses": [
+        "I worked as a System Developer Intern at the Provincial Engineering Office of Pangasinan. I built a local administrative system with geo-tagging and deployed it for internal PC use.",
+        "During my internship, I developed and deployed a system that streamlined file management for the Provincial Engineering Office of Pangasinan, using Flutter for front-end development."
+      ]
+    },
+    {
+      "tag": "achievements",
+      "patterns": [
+        "what are your achievements",
+        "what awards have you received",
+        "do you have any honors",
+        "what recognition have you earned"
+      ],
+      "responses": [
+        "I graduated with Academic Distinction, was a Dean’s Lister, and a recipient of the Pangasinan Scholarship. I also represented my university in the DICT Philippine Startup Challenge 8.",
+        "Some of my achievements include being a Dean’s Lister, Pangasinan Scholarship recipient, and participant in the DICT Philippine Startup Challenge 8."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "how can i contact you",
+        "what is your email",
+        "how do i reach you",
+        "can i get your contact details",
+        "what's your website"
+      ],
+      "responses": [
+        "You can reach me at joshuafverceles@gmail.com or visit my website at jshmslf.is-a.dev.",
+        "Feel free to contact me via email: joshuafverceles@gmail.com. You can also check out my portfolio at jshmslf.is-a.dev."
+      ]
+    },
+        {
+      "tag": "love",
+      "patterns": [
+        "is joshua single?",
+        "joshua currently relationship",
+        "girlfriend of josuhua"
+      ],
+      "responses": [
+        "Joshua is with his loving and supporting girlfriend, Justine",
+        "He is together with Justine Louise for almost 3 years."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "talk to you soon",
+        "farewell"
+      ],
+      "responses": [
+        "Goodbye! Thanks for chatting with me!",
+        "See you soon! Have a great day!",
+        "Take care and thanks for visiting Joshua’s AI chatbot!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "appreciate it",
+        "thank you so much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No worries!",
+        "Glad I could help!"
+      ]
+    }
+  ]
+}
