@@ -2,6 +2,11 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from assistant import ChatBotAssistant
 
+import nltk
+
+nltk.data.path.append("/opt/render/nltk_data")
+
+
 app = FastAPI()
 
 # frontend request
